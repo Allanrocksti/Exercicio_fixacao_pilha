@@ -1,10 +1,3 @@
-/*
- * @author Allan Roque Barbosa da Silva - 1610013738
- * 
- *         Exercicio de fixação de pilha 
- *
- */
-
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -30,10 +23,10 @@ void pausa(){
 }
 
 int push(t_pilha *pilha, t_elemento valor){
-
+    
     pilha->vetor[++pilha->topo] = valor;
-
     return 1; 
+    
 }
 
 t_elemento pop(t_pilha * pilha){
